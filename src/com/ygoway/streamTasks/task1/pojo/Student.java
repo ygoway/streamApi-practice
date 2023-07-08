@@ -1,4 +1,4 @@
-package com.ygoway.strreamTasks.task1.pojo;
+package com.ygoway.streamTasks.task1.pojo;
 
 public class Student {
     protected String firstName;

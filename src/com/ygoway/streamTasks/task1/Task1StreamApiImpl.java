@@ -1,11 +1,11 @@
-package com.ygoway.strreamTasks.task1;
+package com.ygoway.streamTasks.task1;
 
-import com.ygoway.strreamTasks.task1.pojo.Student;
+import com.ygoway.streamTasks.task1.pojo.Student;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.ygoway.strreamTasks.task1.Task1.studentList;
+import static com.ygoway.streamTasks.task1.Task1.studentList;
 
 public class Task1StreamApiImpl {
 

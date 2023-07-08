@@ -1,6 +1,6 @@
-package com.ygoway.strreamTasks.task1.predicate;
+package com.ygoway.streamTasks.task1.predicate;
 
-import com.ygoway.strreamTasks.task1.pojo.Student;
+import com.ygoway.streamTasks.task1.pojo.Student;
 
 import java.util.ArrayList;
 import java.util.List;

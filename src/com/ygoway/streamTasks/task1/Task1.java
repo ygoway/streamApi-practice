@@ -1,16 +1,16 @@
-package com.ygoway.strreamTasks.task1;
+package com.ygoway.streamTasks.task1;
 
-/*  Є список студентів з наступними полями: ім’я, вік, середній бал.
-    Треба отримати список імен студентів, які мають вік більше 18 років та отримали оцінку 90.  */
-
-import com.ygoway.strreamTasks.task1.pojo.Student;
-import com.ygoway.strreamTasks.task1.predicate.StudentIntPredicate;
-import com.ygoway.strreamTasks.task1.predicate.StudentsAgePredicate;
-import com.ygoway.strreamTasks.task1.predicate.StudentsAvgMarkPredicate;
+import com.ygoway.streamTasks.task1.pojo.Student;
+import com.ygoway.streamTasks.task1.predicate.StudentIntPredicate;
+import com.ygoway.streamTasks.task1.predicate.StudentsAgePredicate;
+import com.ygoway.streamTasks.task1.predicate.StudentsAvgMarkPredicate;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+/*  Є список студентів з наступними полями: ім’я, вік, середній бал.
+    Треба отримати список імен студентів, які мають вік більше 18 років та отримали оцінку 90.  */
 
 public class Task1 {
 
@@ -23,8 +23,8 @@ public class Task1 {
             new Student("Petro", 22, 90),
             new Student("Yana", 18, 80),
             new Student("Jenya", 18, 90),
-            new Student("Olena", 17, 90))
-    );
+            new Student("Olena", 17, 90)
+    ));
 
     public static List<String> task1filter(List<Student> studentsInput) {
         List<Student> outputList = new ArrayList<>();
