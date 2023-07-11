@@ -1,11 +1,13 @@
 package com.ygoway.streamTasks.task4;
 
+import java.math.BigDecimal;
+
 public class User {
 
     private String name;
-    private int salary;
+    private BigDecimal salary;
 
-    public User(String name, int salary) {
+    public User(String name, BigDecimal salary) {
         this.name = name;
         this.salary = salary;
     }
@@ -18,11 +20,11 @@ public class User {
         this.name = name;
     }
 
-    public int getSalary() {
+    public BigDecimal getSalary() {
         return salary;
     }
 
-    public void setSalary(int salary) {
+    public void setSalary(BigDecimal salary) {
         this.salary = salary;
     }
 

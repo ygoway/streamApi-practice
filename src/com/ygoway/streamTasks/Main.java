@@ -5,6 +5,7 @@ import com.ygoway.streamTasks.task1.Task1;
 import com.ygoway.streamTasks.task2.Task2StreamApiImpl;
 import com.ygoway.streamTasks.task3.Task3StreamApiImpl;
 import com.ygoway.streamTasks.task4.Task4StreamApiImpl;
+import com.ygoway.streamTasks.task5.Task5StreamApiImpl;
 import com.ygoway.streamTasks.task6.Task6StreamApiImpl;
 
 import static com.ygoway.streamTasks.task2.Task2StreamApiImpl.*;
@@ -33,6 +34,11 @@ public class Main {
 
         Task4StreamApiImpl task4StreamApi = new Task4StreamApiImpl();
         System.out.println(task4StreamApi.getUserWithMostSalary(Task4StreamApiImpl.usersList));
+
+        Task5StreamApiImpl task5StreamApi = new Task5StreamApiImpl();
+        System.out.println(task5StreamApi.countingFactorialReturnInteger(5));
+        System.out.println(task5StreamApi.countingFactorialUseParallelStream(5));
+        System.out.println(task5StreamApi.countingFactorialReturnBigInteger(5));
 
         Task6StreamApiImpl task6StreamApi = new Task6StreamApiImpl();
         System.out.println("There is even number : " +

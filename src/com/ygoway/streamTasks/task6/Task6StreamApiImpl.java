@@ -1,10 +1,10 @@
 package com.ygoway.streamTasks.task6;
 
-/*Є список чисел. Необхідно визначити, чи є хоча б 1 парне.*/
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
+
+/*Є список чисел. Необхідно визначити, чи є хоча б 1 парне.*/
 
 public class Task6StreamApiImpl {
 

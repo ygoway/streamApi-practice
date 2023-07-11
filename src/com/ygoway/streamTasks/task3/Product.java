@@ -1,12 +1,14 @@
 package com.ygoway.streamTasks.task3;
 
+import java.math.BigDecimal;
+
 public class Product {
 
     private String name;
-    private int price;
+    private BigDecimal price;
     private int count;
 
-    public Product(String name, int price, int count) {
+    public Product(String name, BigDecimal price, int count) {
         this.name = name;
         this.price = price;
         this.count = count;
@@ -20,11 +22,11 @@ public class Product {
         this.name = name;
     }
 
-    public int getPrice() {
+    public BigDecimal getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(BigDecimal price) {
         this.price = price;
     }
 
